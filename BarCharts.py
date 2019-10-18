@@ -1,6 +1,10 @@
+
+# # display style available
+# from matplotlib import pyplot as plt
+# print(plt.style.available) 
+
 # # bar char overlapping:
 # from matplotlib import pyplot as plt
-# # print(plt.style.available) # display style available
 # plt.style.use('fivethirtyeight')# fivethirtyeight 
 
 # ages_x = [25,26,27,28,29,30,31,32,33,34,35]
@@ -46,7 +50,7 @@ js_dev_y = [37810,43515,46823,49293,53437,
 plt.bar(x_indexes + width, js_dev_y, width=width,color='#e5ae38',label='JavaScript')
 
 plt.legend()
-plt.xticks(ticks=x_indexes, labels= ages_x) ''' correction x_axis value'''
+plt.xticks(ticks=x_indexes, labels= ages_x) # correction x_axis value
 plt.xlabel('Ages')
 plt.ylabel('Median Salary (USD)')
 plt.title('Median Salary (USD) by Age')

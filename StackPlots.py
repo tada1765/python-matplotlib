@@ -25,7 +25,7 @@
 # Yellow= #e5ae37
 # Green = #6d904f
 
-# location lebels specifically: 
+# location labels specifically: 
 from matplotlib import pyplot as plt
 plt.style.use("fivethirtyeight")
 

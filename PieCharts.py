@@ -26,10 +26,10 @@
 
 # # use color code replace words:
 # # Colors:
-# Blue = #008fd5
-# Red = #fc4f30
-# Yellow= #e5ae37
-# Green = #6d904f
+# # Blue = #008fd5
+# # Red = #fc4f30
+# # Yellow= #e5ae37
+# # Green = #6d904f
 
 # from matplotlib import pyplot as plt
 
@@ -45,7 +45,7 @@
 # plt.tight_layout()
 # plt.show()
 
-# take slice of pie out:
+# # take slice of pie out:
 from matplotlib import pyplot as plt
 plt.style.use("fivethirtyeight")
 slices = [59219,55466,47544,36443,35917]

@@ -3,8 +3,11 @@
 # from matplotlib import pyplot as plt
 # plt.style.use('seaborn')
 
-# # fig, ax = plt.subplots()
-# # print(ax)
+# ''' one figure '''
+# fig, ax = plt.subplots()
+# print(ax)
+
+# ''' two plot in one figure '''
 # fig, (ax1, ax2) = plt.subplots(nrows=2,ncols=1)
 # print(ax1)
 # print(ax2)
